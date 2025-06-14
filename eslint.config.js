@@ -1,13 +1,33 @@
-// eslint.config.js
-import { FlatCompat } from "@eslint/eslintrc";
-import path from "path";
-import { fileURLToPath } from "url";
-
-// resolve __dirname in ESM
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const compat = new FlatCompat({ baseDirectory: __dirname });
+import js from '@eslint/js'
+import globals from 'globals'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
-  { ignores: ["dist"] },
-  ...compat.extends("eslint-config-airbnb", "plugin:react/recommended"),
-];
+  { ignores: ['dist'] },
+  {
+    files: ['**/*.{js,jsx}'],
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: globals.browser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        ecmaFeatures: { jsx: true },
+        sourceType: 'module',
+      },
+    },
+    plugins: {
+      'react-hooks': reactHooks,
+      'react-refresh': reactRefresh,
+    },
+    rules: {
+      ...js.configs.recommended.rules,
+      ...reactHooks.configs.recommended.rules,
+      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
+      ],
+    },
+  },
+]
