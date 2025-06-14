@@ -8,6 +8,23 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const compat = new FlatCompat({ baseDirectory: __dirname });
 
 export default [
-  { ignores: ["dist"] },
-  ...compat.extends("eslint-config-airbnb", "plugin:react/recommended"),
+  { ignores: ["dist", "node_modules", ".firebase"] },
+  {
+    files: ["src/**/*.{js,jsx,ts,tsx}"],
+    ...compat.extends("eslint-config-airbnb", "plugin:react/recommended")[0],
+    languageOptions: {
+      ecmaVersion: "latest",
+      sourceType: "module",
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
+  },
 ];
