@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function Header() {
+const Header=()=> {
   return (
-    <div className="flex justify-center mt-3">
+    <div className="flex justify-center pt-3">
       <motion.nav
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -17,3 +17,5 @@ export default function Header() {
     </div>
   );
 }
+
+export default Header;
