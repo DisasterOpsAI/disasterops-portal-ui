@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Header=()=> {
+const Header = () => {
   return (
     <div className="flex justify-center pt-3">
       <motion.nav
