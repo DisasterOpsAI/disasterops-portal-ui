@@ -35,15 +35,15 @@ The frontend enables:
 disasterops-frontend/
 ├── public/                  # Static files (favicon, index.html)
 └── src/
-├── assets/              # Images, icons, fonts
-├── components/          # Reusable UI components
-├── pages/               # Route views (Login, Dashboard, etc.)
-├── api/                 # API wrappers for backend communication
-├── hooks/               # Custom React hooks
-├── contexts/            # React context providers (auth, role)
-├── styles/              # Tailwind/global styles
-├── App.jsx              # Root app component
-└── main.jsx             # ReactDOM entrypoint
+├── assets/                  # Images, icons, fonts
+├── components/              # Reusable UI components
+├── pages/                   # Route views (Login, Dashboard, etc.)
+├── api/                     # API wrappers for backend communication
+├── hooks/                   # Custom React hooks
+├── contexts/                # React context providers (auth, role)
+├── styles/                  # Tailwind/global styles
+├── App.jsx                  # Root app component
+└── main.jsx                 # ReactDOM entrypoint
 ```
 
 ##  Setup Instructions
