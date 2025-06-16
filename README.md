@@ -73,8 +73,8 @@ pnpm run dev
 This project uses Vite for high-speed development and React 18 for the UI.
 
 Fast Refresh Plugins
-  -	@vitejs/plugin-react – uses Babel
-	-	@vitejs/plugin-react-swc – uses SWC
+-@vitejs/plugin-react – uses Babel
+-@vitejs/plugin-react-swc – uses SWC
 
 We’re using @vitejs/plugin-react.
 
@@ -86,11 +86,11 @@ pnpm run format     # Prettier formatting
 ```
 
 ## Developer Notes
-	-	 Connects to backend (disasterops-core-api) for APIs
-	-	 May integrate with Firebase or Socket for real-time sync
-	-	 Map support (Google Maps, Leaflet) can be added in future
-	-	 Offline caching support under development
-	-	 Keep .env (e.g., for base API URL) in the root (use .env.example)
+-Connects to backend (disasterops-core-api) for APIs
+-May integrate with Firebase or Socket for real-time sync
+-Map support (Google Maps, Leaflet) can be added in future
+-Offline caching support under development
+-Keep .env (e.g., for base API URL) in the root (use .env.example)
 
 ## Contributing
 
