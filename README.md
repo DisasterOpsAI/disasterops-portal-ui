@@ -4,7 +4,6 @@ This is the **frontend** for **DisasterOps**, an AI-powered disaster response co
 
 Built with **React + Vite**, it provides high-speed development, hot module reloading, and modern tooling. The backend and AI-agent services are maintained in separate repositories.
 
----
 
 ##  High-Level Overview
 
@@ -17,7 +16,6 @@ The frontend enables:
 -  **Real-time updates** for responders and admins
 -  **Offline mode support** for disaster conditions
 
----
 
 ##  Technologies Used
 
@@ -30,9 +28,8 @@ The frontend enables:
 | State Management  | Context API / (Optional lib)|
 | API Integration   | Axios + REST from backend   |
 
----
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 disasterops-frontend/
