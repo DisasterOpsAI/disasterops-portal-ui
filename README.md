@@ -10,7 +10,7 @@ Built with **React + Vite**, it provides high-speed development, hot module relo
 The frontend enables:
 
 -  **Role-based dashboards** (Admin, Responder, Volunteer, Affected Individual)
--  **Help request submission** via text or image
+-  **Help request submission** via text and image
 -  **AI-driven instructions** from backend agent service
 -  **Map-based visualizations** for location-aware task views
 -  **Real-time updates** for responders and admins
@@ -20,12 +20,12 @@ The frontend enables:
 ##  Technologies Used
 
 | Component         | Tech                        |
-|------------------|-----------------------------|
+|------------------|------------------------------|
 | Framework         | React 18 + Vite             |
-| Styling           | Tailwind CSS + ShadCN       |
+| Styling           | Tailwind CSS + ShadCN UI    |
 | Routing           | React Router                |
-| Realtime Backend  | Firebase SDK (optional)     |
-| State Management  | Context API / (Optional lib)|
+| Firebase Integration | Firebase SDK (Firestore, Auth, Storage, Realtime) |
+| State Management  | Redux |
 | API Integration   | Axios + REST from backend   |
 
 
@@ -48,11 +48,12 @@ disasterops-frontend/
 
 ##  Setup Instructions
 
-### 1. Clone the Repo
+###1. **Fork** the repository to your own GitHub account.
 
+###2. Clone **your fork** locally:
 ```bash
-git clone https://github.com/DisasterOpsAI/disasterops-portal-ui.git
-cd disasterops-portal-ui
+   git clone https://github.com/DisasterOpsAI/disasterops-portal-ui.git
+   cd disasterops-portal-ui
 ```
 
 ### 2. Install Dependencies
@@ -84,7 +85,7 @@ pnpm run format     # Prettier formatting
 
 ## Developer Notes
 - Connects to backend (disasterops-core-api) for APIs
-- May integrate with Firebase or Socket for real-time sync
+- Uses Firebase Realtime Database for real-time features
 - Map support (Google Maps, Leaflet) can be added in future
 - Offline caching support under development
 - Keep .env (e.g., for base API URL) in the root (use .env.example)
