@@ -102,5 +102,4 @@ We welcome contributions! Please:
 
 ## License
 
-The Unlicense
-– See LICENSE file for details.
+The Unlicense – See LICENSE file for details.
