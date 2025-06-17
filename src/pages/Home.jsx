@@ -7,7 +7,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 
-const Home=()=> {
+const Home = () => {
   return (
     <>
     <div className="flex flex-col items-center h-screen bg-black relative">
