@@ -102,4 +102,4 @@ We welcome contributions! Please:
 
 ## License
 
-MIT – See `LICENSE` file for details.
+The Unlicense
