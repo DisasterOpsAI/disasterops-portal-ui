@@ -56,12 +56,12 @@ disasterops-frontend/
    cd disasterops-portal-ui
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 ```
 pnpm install
 ```
 
-### 3. Start the Server
+### 4. Start the Server
 ```
 pnpm run dev
 ```
