@@ -52,7 +52,7 @@ disasterops-frontend/
 
 ### 2. Clone your fork locally:
 ```bash
-   git clone https://github.com/your-username/disasterops-frontend.git
+   git clone https://github.com/your-username/disasterops-portal-ui.git
    cd disasterops-portal-ui
 ```
 
