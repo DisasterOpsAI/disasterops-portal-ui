@@ -9,6 +9,7 @@
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "preview": "vite preview"
   },
+  "license": "The Unlicense",
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@radix-ui/react-popover": "^1.1.14",
