@@ -48,9 +48,9 @@ disasterops-frontend/
 
 ##  Setup Instructions
 
-###1. **Fork** the repository to your own GitHub account.
+###1. Fork the repository to your own GitHub account.
 
-###2. Clone **your fork** locally:
+###2. Clone your fork locally:
 ```bash
    git clone https://github.com/DisasterOpsAI/disasterops-portal-ui.git
    cd disasterops-portal-ui
