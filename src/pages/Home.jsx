@@ -5,9 +5,9 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover";
+} from "@/components/ui/Popover";
 
-const Home=()=> {
+const Home = () => {
   return (
     <>
     <div className="flex flex-col items-center h-screen bg-black relative">
