@@ -1,0 +1,35 @@
+name: Lint UI
+
+on:
+  push:
+    paths:
+      - 'disasterops-portal-ui/**'
+  pull_request:
+    paths:
+      - 'disasterops-portal-ui/**'
+
+jobs:
+  lint:
+    name: Lint UI Code
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: disasterops-portal-ui
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js (Latest LTS)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+          cache-dependency-path: disasterops-portal-ui/pnpm-lock.yaml
+
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run ESLint
+        run: pnpm exec eslint . --ext .js,.jsx,.ts,.tsx --max-warnings=0
