@@ -62,7 +62,5 @@ Open your browser and go to:
 ## 💡 Notes
 
 - The app is built with **React 19 + Vite + shadcn/ui + Tailwind CSS**  
-- AI agent workflows handle request prioritization and task assignment  
-- Vision-Language Model (VLM) integration is available for image-based reports  
 
 ---

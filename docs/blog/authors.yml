@@ -1,0 +1,29 @@
+Sithumli:
+  name: Sithumli Nanayakkara
+  title: First Responder Module Lead
+  url: https://www.linkedin.com/in/[your-handle]
+  image_url: https://github.com/Sithumli.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/sithumli-nanayakkara/
+    github: https://github.com/Sithumli
+
+Tharun:
+  name: Tharun Devaraja
+  title: Volunteer Module Lead
+  url: https://www.linkedin.com/in/d3varaja/
+  image_url: https://github.com/d3varaja.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/d3varaja/
+    github: https://github.com/d3varaja
+
+Thanuka:
+  name: Thanuka
+  title: Affected Individuals Module Lead
+  url: https://www.linkedin.com/
+  image_url: https://github.com/Thanukamax.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/
+    github: https://github.com/Thanukamax

@@ -1,0 +1,50 @@
+disaster-response:
+  label: Disaster Response
+  permalink: /disaster-response
+  description: Coordination and management of disaster response operations
+
+ai-agent-workflow:
+  label: AI Agent Workflow
+  permalink: /ai-agent-workflow
+  description: Intelligent agent systems for disaster task prioritization and automation
+
+first-responders:
+  label: First Responders
+  permalink: /first-responders
+  description: Tools and dashboards designed for first responders in emergencies
+
+volunteer-management:
+  label: Volunteer Management
+  permalink: /volunteer-management
+  description: Assignments, tracking, and coordination of volunteers during disasters
+
+vision-language-models:
+  label: Vision-Language Models
+  permalink: /vision-language-models
+  description: Integrating VLMs like CLIP or LLaVA for image and text analysis
+
+real-time-dashboard:
+  label: Real-Time Dashboard
+  permalink: /real-time-dashboard
+  description: Live dashboards for task tracking, resource allocation, and updates
+
+resource-tracking:
+  label: Resource Tracking
+  permalink: /resource-tracking
+  description: Monitoring and managing resources during disaster scenarios
+
+multimodal-input:
+  label: Multimodal Input
+  permalink: /multimodal-input
+  description: Handling text, image, and voice inputs for help requests
+
+agentops:
+  label: AgentOps
+  permalink: /agentops
+  description: Observability and monitoring for AI agent operations
+
+cost-effective-ai:
+  label: Cost Effective AI
+  permalink: /cost-effective-ai
+  description: Designing AI workflows that balance performance and cost
+
